@@ -76,7 +76,7 @@ def main():
 
     print("\n--- Remaining cards ---")
     print(remaining)
-    print(f"\nNumber of cards remaining: {len(remaining)}장")
+    print(f"\nNumber of cards remaining: {len(remaining)}")
 
 if __name__ == "__main__":
     main()
