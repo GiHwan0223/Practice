@@ -7,7 +7,7 @@ from typing import List, Tuple
 # -------- Configure card decks --------
 SUITS = ["Spades", "Hearts", "Diamonds", "Clubs"] 
 RANKS = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "J", "Q", "K"] 
-JOKERS = ["Joker", "Joker"]  # 문양 없음, 2장
+JOKERS = ["Joker", "Joker"]  # Not distinguished type or rank
 
 def build_deck() -> List[str]:
     """
