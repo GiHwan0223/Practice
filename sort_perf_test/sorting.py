@@ -5,6 +5,7 @@ Conditions:
 2. Create sorting functions of Quick, Merge, Insertion, Selection, and Bubble.
 3. Create a test function that outputs the results sorted in order of the fastest sort function.
 
+Sorting performance test results (fast order):
 Quick Sort: 0.000625 sec
 Merge Sort: 0.000758 sec
 Insertion Sort: 0.008862 sec
@@ -147,7 +148,7 @@ def test_sort_performance(words):
 
 # Sample
 if __name__ == "__main__":
-    words = generate_random_words(1000)  # 테스트 데이터
+    words = generate_random_words(1000)  # Generate sample words data
 
     results = test_sort_performance(words)
     print("Sorting performance test results (fast order):")

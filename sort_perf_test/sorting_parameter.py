@@ -62,6 +62,7 @@ def insertion_sort(arr):
         a[j+1] = key
     return a
 
+
 # 3. Bubble Sort
 def bubble_sort(arr):
     a = arr[:]
