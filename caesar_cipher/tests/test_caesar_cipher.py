@@ -1,3 +1,20 @@
+'''
+Caesar cipher verification
+[Scope of verification]
+- Each alphabetic character is shifted by +5 positions (wrapping around z → e and Z → E).
+- Non-alphabetic characters (numbers, punctuation, spaces) are not changed.
+- Includes comprehensive pytest test cases:
+  - basic lowercase & uppercase
+  - mixed case handling
+  - non-alphabetic characters
+  - empty string edge case
+  - optional custom shift
+
+[Does not cover]
+1. Unicode handling
+2. app termination
+3. max length of input data  
+'''
 import pytest
 from caesar_cipher import cc
 
